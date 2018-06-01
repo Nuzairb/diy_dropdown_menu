@@ -1,0 +1,22 @@
+{
+  "name": "dropdownMenus",
+  "version": "1.0.0",
+  "description": "A demo of different types of navbar created with javascript and css",
+  "main": "index.html",
+  "author": "Nuzair Ibrahim",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0"
+  }
+}
