@@ -1,0 +1,1 @@
+{"version":3,"sources":["_shared/body.scss"],"names":[],"mappings":"AAAA,IAAI,AAAC,CACJ,UAAU,CAAE,IAAI,CAChB","file":"../style.css","sourcesContent":["body {\n\tbackground: gray;\n}"]}
