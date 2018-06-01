@@ -1,1 +1,1 @@
-{"version":3,"sources":["_shared/body.scss"],"names":[],"mappings":"AAAA,IAAA,CACC,UAAA,CAAA,IAAA,CACA","file":"../../_shared/body.css","sourcesContent":["body {\n\tbackground: gray;\n}"]}
+{"version":3,"sources":["_shared/body.scss"],"names":[],"mappings":"AAAA,IAAA,CACC,SAAA,CAAA,IAAA,CACA,WAAA,CAAA,GAAA,CACA,MAAA,CAAA,CAAA,CACA,OAAA,CAAA,CAAA,CACA,WAAA,CAAA,2BAAA,CACA","file":"../../_shared/body.css","sourcesContent":["body {\n\tfont-size: 14px;\n\tline-height: 1.5;\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: 'IBM Plex Sans', sans-serif;\n}"]}

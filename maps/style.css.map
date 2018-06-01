@@ -1,1 +1,1 @@
-{"version":3,"sources":["_shared/body.scss"],"names":[],"mappings":"AAAA,IAAI,AAAC,CACJ,UAAU,CAAE,IAAI,CAChB","file":"../style.css","sourcesContent":["body {\n\tbackground: gray;\n}"]}
+{"version":3,"sources":["_shared/body.scss"],"names":[],"mappings":"AAAA,IAAI,AAAC,CACJ,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,GAAG,CAChB,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,WAAW,CAAE,2BAA2B,CACxC","file":"../style.css","sourcesContent":["body {\n\tfont-size: 14px;\n\tline-height: 1.5;\n\tmargin: 0;\n\tpadding: 0;\n\tfont-family: 'IBM Plex Sans', sans-serif;\n}"]}
