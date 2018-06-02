@@ -11,14 +11,14 @@ $header-light-background-color: #ffffff;
     @include breakpoint(medium) {
         line-height: 48px;
         min-height: 48px;
-        padding: 0 18px;
+        padding: 0 10px;
     }
 }
 
 .primary {
     align-items: center;
     display: flex;
-    flex-wrap: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -28,7 +28,7 @@ $header-light-background-color: #ffffff;
     flex-direction: row;
     width: 100%;
     @include breakpoint(medium) {
-        flex-direction: column;
+        flex-direction: column
     }
     &.nav-start {
         justify-content: flex-start;
@@ -38,6 +38,7 @@ $header-light-background-color: #ffffff;
         }
     }
     &.nav-end {
+        flex: 1;
         justify-content: flex-end;
         width: 50%;
         @include breakpoint(medium) {
@@ -112,6 +113,7 @@ $header-light-background-color: #ffffff;
     height: 32px;
     justify-content: center;
     margin-left: 10px;
+    margin: 0 auto;
     transition: all ease .3s;
     width: 32px;
     @include breakpoint(medium) {
@@ -124,6 +126,10 @@ $header-light-background-color: #ffffff;
     }
 }
 
+.dropdown {
+    position: relative;
+}
+
 .dropdown-menu {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
@@ -134,6 +140,8 @@ $header-light-background-color: #ffffff;
     list-style: none;
     margin: 0 0 0 5px;
     min-width: 180px;
+    padding: 0;
+    position: absolute;
     text-align: left;
     top: 44px;
     z-index: 99;
@@ -163,7 +171,7 @@ $header-light-background-color: #ffffff;
         text-align: center;
     }
     a {
-        display: block;
+        dispay: block;
         height: 30px;
         line-height: 30px;
         padding: 0 16px;
@@ -171,7 +179,11 @@ $header-light-background-color: #ffffff;
     }
 }
 
-// Light Theme
+
+/*
+* Light Theme
+======================================================*/
+
 .header-light {
     background-color: white;
     .nav-item {
@@ -202,7 +214,11 @@ $header-light-background-color: #ffffff;
     }
 }
 
-// Dark Theme
+
+/*
+* Dark Theme
+======================================================*/
+
 .header-dark {
     background: $header-dark-background-color;
     .nav {
@@ -220,12 +236,13 @@ $header-light-background-color: #ffffff;
     }
     .dropdown-item {
         color: $primary-color;
+        transition: ease .3s background-color;
         &:hover,
         &:focus {
             background-color: rgba($primary-color, .1);
-            a {
-                color: $header-dark-background-color;
-            }
+        }
+        a {
+            color: $header-dark-background-color;
         }
     }
     .btn {
